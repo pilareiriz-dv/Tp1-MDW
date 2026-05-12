@@ -154,7 +154,7 @@ dd div {
  padding: 10px;
 }
 
-div a {
+.albumes a {
     background-color: #1ed760;
     padding: 10px;
    color: #ffffff;
@@ -163,7 +163,7 @@ div a {
 }
 
 
-div a:hover {
+.albumes a:hover {
     background-color: #159D45;
 }
 
@@ -173,7 +173,7 @@ div p {
 
 
 
-
+/*Proyectos*/
 
 
 .imagen_proyectos {
@@ -186,14 +186,69 @@ div p {
 .detalle_proyectos {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 20px
+    margin-left: 20px;
+    width: 400px;
+    margin-bottom: 20px;
 }
 
 .figure_hannah {
-    width: 10000px;
+    width: 800px;
+    height: 350px;
+    background-color: #EEEAE4 ;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 16px;
 
 }
 
 .titulo_proyecto {
-    margin: 20px 0px;
+    margin: 20px 20px;
+    text-align: left;
+}
+
+
+.link_plataforma {
+background-color: red;
+padding: 10px;
+margin-left: 200px;
+margin-top: 300px;
+border-radius: 4px;
+color: #000000;
+
+
+
+}
+
+.link_plataforma:hover {
+    background-color: #5B1515;
+    color: #ffffff;
+
+}
+
+
+
+
+
+/*contacto*/
+
+.contacto a {
+    background-color: none;
+}
+
+.section_footer {
+   margin-top: 20px;
+}
+
+
+.datos_footer {
+    display: inline-block;
+    vertical-align:middle;
+     width: 300px;
+}
+
+.imagen_footer{
+ display: inline-block;
+ vertical-align: middle;
+ width: 300px;
+
 }
